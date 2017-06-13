@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F83259297A4D6FFAEE6D4500031AC0 /* Pluto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D21D46378B0FFB611013FC020B33DF /* Pluto-dummy.m */; };
+		060B71D7A2AFE72C66F493C081AE613B /* Pods-RecordUtilExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D97E9759DDEEE11970897D4658E4119 /* Pods-RecordUtilExample-dummy.m */; };
+		1438E94A5D01DE441926730200FE52DB /* PlutoLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EAFD4FF738A91AFC5B3039CCD2FA05D /* PlutoLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A9DF8B630C06109F294D36C5207F1D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5F9D2AADB3ED48B53DB47D25FCA254B3 /* PlutoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BB64E6AD1B20D20C80B9293FEA1221 /* PlutoLog.m */; };
+		A41BCB72244BA5DC0D340F79B40EFD93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D56A1CAF8032FEBDDA08C855DA70A4D4 /* Pluto.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE239188396C81D86AE75A8BDD0AC9A /* Pluto.m */; };
+		D8E91DD091571D332F8335FEC33CE921 /* Pluto.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1682CBF4EC784947A7ACEF218EC773 /* Pluto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77E340ADA7185F04F6A6E399C3EF401E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA686843FDA281C1B2AA8903EF66A6A3;
+			remoteInfo = Pluto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2045DF773C710DFEE80E6A67C4BE9CED /* Pods-RecordUtilExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordUtilExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4D97E9759DDEEE11970897D4658E4119 /* Pods-RecordUtilExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecordUtilExample-dummy.m"; sourceTree = "<group>"; };
+		4EAFD4FF738A91AFC5B3039CCD2FA05D /* PlutoLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PlutoLog.h; path = Pluto/PlutoLog.h; sourceTree = "<group>"; };
+		4F41DE2C28545275BB6270CDB8BACC5B /* libPods-RecordUtilExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RecordUtilExample.a"; path = "libPods-RecordUtilExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BB64E6AD1B20D20C80B9293FEA1221 /* PlutoLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PlutoLog.m; path = Pluto/PlutoLog.m; sourceTree = "<group>"; };
+		57FFAD0F6BF402CC450B2C43CCEC08C5 /* Pluto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pluto.xcconfig; sourceTree = "<group>"; };
+		63BC5C251A35EB86375BA5D2FB64B782 /* Pods-RecordUtilExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordUtilExample-resources.sh"; sourceTree = "<group>"; };
+		87647ED801CEC8F5BA0EADB8257C9ECD /* libPluto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPluto.a; path = libPluto.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A34ED9307FB94378264876FA2E365F8D /* Pods-RecordUtilExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecordUtilExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3D4B7EEC522A9FC80B8D6D8EEA20B08 /* Pods-RecordUtilExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordUtilExample-frameworks.sh"; sourceTree = "<group>"; };
+		A97CA3CAD31B02BB69A3D5A2D0155F33 /* Pods-RecordUtilExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordUtilExample.release.xcconfig"; sourceTree = "<group>"; };
+		BC1682CBF4EC784947A7ACEF218EC773 /* Pluto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Pluto.h; path = Pluto/Pluto.h; sourceTree = "<group>"; };
+		BC4BF395EB0AEBCB189505C0340A1351 /* Pluto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pluto-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D278CBC26D620332865AF796A708DEE0 /* Pods-RecordUtilExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecordUtilExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8D21D46378B0FFB611013FC020B33DF /* Pluto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pluto-dummy.m"; sourceTree = "<group>"; };
+		ECE239188396C81D86AE75A8BDD0AC9A /* Pluto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Pluto.m; path = Pluto/Pluto.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4037E1A3FF7B6C52EFF2D4DAB9CA592E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9DF8B630C06109F294D36C5207F1D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB05CC2F4ABBAB3F04E1CE9FB3D6A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41BCB72244BA5DC0D340F79B40EFD93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180FA7990FF880DC33AD560EFDBABBD0 /* Pluto */ = {
+			isa = PBXGroup;
+			children = (
+				BC1682CBF4EC784947A7ACEF218EC773 /* Pluto.h */,
+				ECE239188396C81D86AE75A8BDD0AC9A /* Pluto.m */,
+				4EAFD4FF738A91AFC5B3039CCD2FA05D /* PlutoLog.h */,
+				54BB64E6AD1B20D20C80B9293FEA1221 /* PlutoLog.m */,
+				27B822FF79B971D27C660C8D5F3A4850 /* Support Files */,
+			);
+			name = Pluto;
+			path = Pluto;
+			sourceTree = "<group>";
+		};
+		1954FFC67331E3985E80886185D1AC2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				180FA7990FF880DC33AD560EFDBABBD0 /* Pluto */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27B822FF79B971D27C660C8D5F3A4850 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FFAD0F6BF402CC450B2C43CCEC08C5 /* Pluto.xcconfig */,
+				D8D21D46378B0FFB611013FC020B33DF /* Pluto-dummy.m */,
+				BC4BF395EB0AEBCB189505C0340A1351 /* Pluto-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pluto";
+			sourceTree = "<group>";
+		};
+		3EDA71F4D7AF54B4E3646F504FAC4D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87647ED801CEC8F5BA0EADB8257C9ECD /* libPluto.a */,
+				4F41DE2C28545275BB6270CDB8BACC5B /* libPods-RecordUtilExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1954FFC67331E3985E80886185D1AC2F /* Pods */,
+				3EDA71F4D7AF54B4E3646F504FAC4D5A /* Products */,
+				C22626003B508057B3624D3F7CE2646E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C22626003B508057B3624D3F7CE2646E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B048D17C0D8A31D8F0944760ABFD2 /* Pods-RecordUtilExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DE8B048D17C0D8A31D8F0944760ABFD2 /* Pods-RecordUtilExample */ = {
+			isa = PBXGroup;
+			children = (
+				A34ED9307FB94378264876FA2E365F8D /* Pods-RecordUtilExample-acknowledgements.markdown */,
+				D278CBC26D620332865AF796A708DEE0 /* Pods-RecordUtilExample-acknowledgements.plist */,
+				4D97E9759DDEEE11970897D4658E4119 /* Pods-RecordUtilExample-dummy.m */,
+				A3D4B7EEC522A9FC80B8D6D8EEA20B08 /* Pods-RecordUtilExample-frameworks.sh */,
+				63BC5C251A35EB86375BA5D2FB64B782 /* Pods-RecordUtilExample-resources.sh */,
+				2045DF773C710DFEE80E6A67C4BE9CED /* Pods-RecordUtilExample.debug.xcconfig */,
+				A97CA3CAD31B02BB69A3D5A2D0155F33 /* Pods-RecordUtilExample.release.xcconfig */,
+			);
+			name = "Pods-RecordUtilExample";
+			path = "Target Support Files/Pods-RecordUtilExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CEC0B23F1510B648F2367887508C960 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E91DD091571D332F8335FEC33CE921 /* Pluto.h in Headers */,
+				1438E94A5D01DE441926730200FE52DB /* PlutoLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A5A96A1453657C094DB4455FD74B479 /* Pods-RecordUtilExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACA570F73B265A62AB08190C941F557 /* Build configuration list for PBXNativeTarget "Pods-RecordUtilExample" */;
+			buildPhases = (
+				BDC739A828879AA8E5DA939A8AC5A081 /* Sources */,
+				DAB05CC2F4ABBAB3F04E1CE9FB3D6A95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003B64FA9CA098CA75A0AB9ED901A0DD /* PBXTargetDependency */,
+			);
+			name = "Pods-RecordUtilExample";
+			productName = "Pods-RecordUtilExample";
+			productReference = 4F41DE2C28545275BB6270CDB8BACC5B /* libPods-RecordUtilExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA686843FDA281C1B2AA8903EF66A6A3 /* Pluto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A198A60209CE165B8FC92C56B3591AEE /* Build configuration list for PBXNativeTarget "Pluto" */;
+			buildPhases = (
+				1A761E3FFDBA3EDB3B6C1A5597AD56E0 /* Sources */,
+				4037E1A3FF7B6C52EFF2D4DAB9CA592E /* Frameworks */,
+				2CEC0B23F1510B648F2367887508C960 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pluto;
+			productName = Pluto;
+			productReference = 87647ED801CEC8F5BA0EADB8257C9ECD /* libPluto.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3EDA71F4D7AF54B4E3646F504FAC4D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA686843FDA281C1B2AA8903EF66A6A3 /* Pluto */,
+				2A5A96A1453657C094DB4455FD74B479 /* Pods-RecordUtilExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A761E3FFDBA3EDB3B6C1A5597AD56E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F83259297A4D6FFAEE6D4500031AC0 /* Pluto-dummy.m in Sources */,
+				D56A1CAF8032FEBDDA08C855DA70A4D4 /* Pluto.m in Sources */,
+				5F9D2AADB3ED48B53DB47D25FCA254B3 /* PlutoLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC739A828879AA8E5DA939A8AC5A081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060B71D7A2AFE72C66F493C081AE613B /* Pods-RecordUtilExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003B64FA9CA098CA75A0AB9ED901A0DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Pluto;
+			target = BA686843FDA281C1B2AA8903EF66A6A3 /* Pluto */;
+			targetProxy = 77E340ADA7185F04F6A6E399C3EF401E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B81CCF55FC17768153B2F02EB505F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FFAD0F6BF402CC450B2C43CCEC08C5 /* Pluto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pluto/Pluto-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		83F76935AD59445796B283168047BF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FFAD0F6BF402CC450B2C43CCEC08C5 /* Pluto.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pluto/Pluto-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA265AE66EBEABAD5A456E57DE490918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97CA3CAD31B02BB69A3D5A2D0155F33 /* Pods-RecordUtilExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F1260AF603269786375D550E2DD6938E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2045DF773C710DFEE80E6A67C4BE9CED /* Pods-RecordUtilExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACA570F73B265A62AB08190C941F557 /* Build configuration list for PBXNativeTarget "Pods-RecordUtilExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1260AF603269786375D550E2DD6938E /* Debug */,
+				DA265AE66EBEABAD5A456E57DE490918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A198A60209CE165B8FC92C56B3591AEE /* Build configuration list for PBXNativeTarget "Pluto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B81CCF55FC17768153B2F02EB505F11 /* Debug */,
+				83F76935AD59445796B283168047BF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

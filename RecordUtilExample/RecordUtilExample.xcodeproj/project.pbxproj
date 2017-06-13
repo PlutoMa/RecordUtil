@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB30EE2ADCDB915A093B9DF /* libPods-RecordUtilExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A87A36226DBF398AB8124558 /* libPods-RecordUtilExample.a */; };
 		57BCF4181EEFD78200E3E18A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCF4171EEFD78200E3E18A /* main.m */; };
 		57BCF41B1EEFD78200E3E18A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCF41A1EEFD78200E3E18A /* AppDelegate.m */; };
 		57BCF41E1EEFD78200E3E18A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCF41D1EEFD78200E3E18A /* ViewController.m */; };
 		57BCF4211EEFD78200E3E18A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BCF41F1EEFD78200E3E18A /* Main.storyboard */; };
 		57BCF4231EEFD78200E3E18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BCF4221EEFD78200E3E18A /* Assets.xcassets */; };
 		57BCF4261EEFD78200E3E18A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BCF4241EEFD78200E3E18A /* LaunchScreen.storyboard */; };
+		57BCF42F1EEFE1E900E3E18A /* RecordUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCF42E1EEFE1E900E3E18A /* RecordUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		57BCF4221EEFD78200E3E18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57BCF4251EEFD78200E3E18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57BCF4271EEFD78200E3E18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BCF42D1EEFE1E900E3E18A /* RecordUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordUtil.h; sourceTree = "<group>"; };
+		57BCF42E1EEFE1E900E3E18A /* RecordUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordUtil.m; sourceTree = "<group>"; };
+		A87A36226DBF398AB8124558 /* libPods-RecordUtilExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RecordUtilExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8DE6C3873A2D86E088AD3E /* Pods-RecordUtilExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordUtilExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecordUtilExample/Pods-RecordUtilExample.debug.xcconfig"; sourceTree = "<group>"; };
+		D4283E9B20C53909BDF85DA1 /* Pods-RecordUtilExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordUtilExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecordUtilExample/Pods-RecordUtilExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB30EE2ADCDB915A093B9DF /* libPods-RecordUtilExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1267F554B311FB0E3268A71E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DE6C3873A2D86E088AD3E /* Pods-RecordUtilExample.debug.xcconfig */,
+				D4283E9B20C53909BDF85DA1 /* Pods-RecordUtilExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		57BCF40A1EEFD78100E3E18A = {
 			isa = PBXGroup;
 			children = (
 				57BCF4151EEFD78200E3E18A /* RecordUtilExample */,
 				57BCF4141EEFD78200E3E18A /* Products */,
+				1267F554B311FB0E3268A71E /* Pods */,
+				B13A3302044B7D421042E0A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +81,8 @@
 				57BCF41A1EEFD78200E3E18A /* AppDelegate.m */,
 				57BCF41C1EEFD78200E3E18A /* ViewController.h */,
 				57BCF41D1EEFD78200E3E18A /* ViewController.m */,
+				57BCF42D1EEFE1E900E3E18A /* RecordUtil.h */,
+				57BCF42E1EEFE1E900E3E18A /* RecordUtil.m */,
 				57BCF41F1EEFD78200E3E18A /* Main.storyboard */,
 				57BCF4221EEFD78200E3E18A /* Assets.xcassets */,
 				57BCF4241EEFD78200E3E18A /* LaunchScreen.storyboard */,
@@ -79,6 +100,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B13A3302044B7D421042E0A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A87A36226DBF398AB8124558 /* libPods-RecordUtilExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57BCF42A1EEFD78200E3E18A /* Build configuration list for PBXNativeTarget "RecordUtilExample" */;
 			buildPhases = (
+				5AEEBE572F46E000F6FBC294 /* [CP] Check Pods Manifest.lock */,
 				57BCF40F1EEFD78200E3E18A /* Sources */,
 				57BCF4101EEFD78200E3E18A /* Frameworks */,
 				57BCF4111EEFD78200E3E18A /* Resources */,
+				5D7F6D56170C4346282E165E /* [CP] Embed Pods Frameworks */,
+				837AE98DAE204BCBD48CB68A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,11 +177,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AEEBE572F46E000F6FBC294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D7F6D56170C4346282E165E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordUtilExample/Pods-RecordUtilExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		837AE98DAE204BCBD48CB68A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordUtilExample/Pods-RecordUtilExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57BCF40F1EEFD78200E3E18A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BCF42F1EEFE1E900E3E18A /* RecordUtil.m in Sources */,
 				57BCF41E1EEFD78200E3E18A /* ViewController.m in Sources */,
 				57BCF41B1EEFD78200E3E18A /* AppDelegate.m in Sources */,
 				57BCF4181EEFD78200E3E18A /* main.m in Sources */,
@@ -270,6 +351,7 @@
 		};
 		57BCF42B1EEFD78200E3E18A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8DE6C3873A2D86E088AD3E /* Pods-RecordUtilExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RecordUtilExample/Info.plist;
@@ -281,6 +363,7 @@
 		};
 		57BCF42C1EEFD78200E3E18A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4283E9B20C53909BDF85DA1 /* Pods-RecordUtilExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RecordUtilExample/Info.plist;
